@@ -1,0 +1,1067 @@
+/* -----------------------------------------General---------------------------------------------- */
+
+.projects-container{
+    
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+/* -------------------------------------Section Title------------------------------------------ */
+.section-title{
+   
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: rgb(240, 224, 224);
+    
+}
+
+.Projects{
+    font-size: 45px;
+}
+
+.contactMe2{
+    text-decoration: underline  rgb(100, 216, 236) 3px;
+    color: rgb(240, 224, 224);
+    
+}
+
+/* --------------------------------------Projects Grid------------------------------------------ */
+
+.p-grid-container{
+    
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.p-grid-row{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    
+    
+}
+
+.p-div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+    height: 100%;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    background-color: antiquewhite;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 27%;
+    height: 45%;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.overlay-icons{
+    font-size: 55px;
+}
+
+.overlay-icon{
+    margin: 15px;
+    color: black;
+}
+
+
+@media (hover:hover) {
+    .p-div:hover img{
+        opacity: 1;
+    }
+      
+    .p-div:hover .overlay{
+        opacity: 0.8;
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------Responsive----------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------Max Width: 991px------------------------------------------------ */
+
+@media screen and (max-width:991px) {
+    .projects-container{
+    
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+         
+        
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+        
+    }
+    
+    
+    /* -------------------------------------Section Title------------------------------------------ */
+    .section-title{
+       
+        height: 10%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        color: rgb(240, 224, 224);
+        padding: 0 
+    }
+    
+    
+    
+    .Projects{
+        font-size: 65px;
+    }
+    
+    .contactMe2{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 25px;
+        
+    }
+    
+    /* --------------------------------------Projects Grid------------------------------------------ */
+    
+    .p-grid-container{
+        
+        width: 80%;
+        height: 140vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+       
+        
+
+        
+        
+        
+    }
+    
+    .p-grid-row{
+        
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        
+        
+        
+        
+    }
+    
+    .p-div{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+            
+        height: 400px;
+        
+        
+        margin-bottom: 5px;
+    }
+    
+    
+    
+    .project-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    
+    .project-Description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .project-Description h4{
+        color: rgb(240, 224, 224);
+        font-size: 35px;
+    }
+    
+    .project-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+        
+    }
+    
+    .project-option div a p{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 22px;
+    }
+    
+    
+    
+    
+    
+    .overlay{
+        transition: all 0.2s ease;
+        opacity: 0;
+        background-color: antiquewhite;
+        position: absolute;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        
+        width: 27%;
+        height: 45%;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    
+    .overlay-icons{
+        font-size: 55px;
+    }
+    
+    .overlay-icon{
+        margin: 15px;
+        color: black;
+    }
+}
+
+/* -----------------------------------------Max Width: 768px------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+    .projects-container{
+    
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+         
+        
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+        
+    }
+    
+    
+    /* -------------------------------------Section Title------------------------------------------ */
+    .section-title{
+       
+        height: 10%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        color: rgb(240, 224, 224);
+        
+    }
+    
+    
+    
+    .Projects{
+        font-size: 35px;
+    }
+    
+    .contactMe2{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 15px;
+        
+    }
+    
+    /* --------------------------------------Projects Grid------------------------------------------ */
+    
+    .p-grid-container{
+        
+        width: 80%;
+        height: 140vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+       
+        
+
+        
+        
+        
+    }
+    
+    .p-grid-row{
+        
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        
+        
+        
+        
+    }
+    
+    .p-div{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+            
+        height: 400px;
+        
+        
+        margin-bottom: 5px;
+    }
+    
+    
+    
+    .project-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    
+    .project-Description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .project-Description h4{
+        color: rgb(240, 224, 224);
+    }
+    
+    .project-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+        
+    }
+    
+    .project-option div a p{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+    }
+    
+    
+    
+    
+    
+    .overlay{
+        transition: all 0.2s ease;
+        opacity: 0;
+        background-color: antiquewhite;
+        position: absolute;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        
+        width: 27%;
+        height: 45%;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    
+    .overlay-icons{
+        font-size: 55px;
+    }
+    
+    .overlay-icon{
+        margin: 15px;
+        color: black;
+    }
+}
+
+
+
+/* --------------------------------------Max Width: 576px---------------------------------------------------- */
+
+@media screen and (max-width: 576px) {
+    .projects-container{
+    
+        width: 100vw;
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    /* -------------------------------------Section Title------------------------------------------ */
+    .section-title{
+       
+        height: 50px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        color: rgb(240, 224, 224);
+       
+    }
+    
+    
+    
+    .Projects{
+        font-size: 35px;
+    }
+    
+    .contactMe2{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 15px;
+        
+    }
+    
+    /* --------------------------------------Projects Grid------------------------------------------ */
+    
+    .p-grid-container{
+        
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        
+        
+    }
+    
+    .p-grid-row{
+        
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        
+        
+        
+    }
+    
+    .p-div{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+            
+        height: 400px;
+    }
+    
+    .p-div:not(:last-child){
+        margin-bottom: 55px;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    
+    .project-Description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .project-Description h4{
+        color: rgb(240, 224, 224);
+        font-size: 27px;
+    }
+    
+    .project-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+        
+    }
+    
+    .project-option div a p{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 17px;
+    }
+    
+    
+    
+    
+    
+    .overlay{
+        transition: all 0.2s ease;
+        opacity: 0;
+        background-color: antiquewhite;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        width: 27%;
+        height: 45%;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    
+    .overlay-icons{
+        font-size: 55px;
+    }
+    
+    .overlay-icon{
+        margin: 15px;
+        color: black;
+    }
+    
+}
+
+/* ----------------------------------------max width: 480px------------------------------------------------- */
+
+@media screen and (max-width:480px) {
+    .projects-container{
+    
+        width: 100vw;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    /* -------------------------------------Section Title------------------------------------------ */
+    .section-title{
+       
+        height: 50px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        color: rgb(240, 224, 224);
+        ;
+    }
+    
+    
+    
+    .Projects{
+        font-size: 30px;
+    }
+    
+    .contactMe2{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 15px;
+        
+    }
+    
+    /* --------------------------------------Projects Grid------------------------------------------ */
+    
+    .p-grid-container{
+        
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        
+        
+    }
+    
+    .p-grid-row{
+        
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        
+        
+        
+    }
+    
+    .p-div{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+            
+        height: 400px;
+    }
+    
+    .p-div:not(:last-child){
+        margin-bottom: 55px;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    
+    .project-Description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .project-Description h4{
+        color: rgb(240, 224, 224);
+    }
+    
+    .project-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+        
+    }
+    
+    .project-option div a p{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+    }
+    
+    
+    
+    
+    
+    .overlay{
+        transition: all 0.2s ease;
+        opacity: 0;
+        background-color: antiquewhite;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        width: 27%;
+        height: 45%;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    
+    .overlay-icons{
+        font-size: 55px;
+    }
+    
+    .overlay-icon{
+        margin: 15px;
+        color: black;
+    }
+    
+    
+   
+}
+
+
+/* -----------------------------------------max Width: 400px------------------------------------------------ */
+@media screen and (max-width:400px) {
+    /* -----------------------------------------General---------------------------------------------- */
+
+    
+.projects-container{
+    
+    width: 100vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    
+    margin-bottom: 50px;
+    padding-bottom: 0;
+}
+
+
+/* -------------------------------------Section Title------------------------------------------ */
+.section-title{
+   
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: rgb(240, 224, 224);
+}
+
+
+
+.Projects{
+    font-size: 35px;
+}
+
+.contactMe2{
+    text-decoration: underline  rgb(100, 216, 236) 3px;
+    color: rgb(240, 224, 224);
+    font-size: 15px;
+    
+}
+
+/* --------------------------------------Projects Grid------------------------------------------ */
+
+.p-grid-container{
+    
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+    
+}
+
+.p-grid-row{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    
+    
+}
+
+.p-div{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+        
+    height: 400px;
+}
+
+.p-div:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.project-img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.project-Description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
+
+.project-Description h4{
+    color: rgb(240, 224, 224);
+}
+
+.project-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    
+}
+
+.project-option div a p{
+    text-decoration: underline  rgb(100, 216, 236) 3px;
+    color: rgb(240, 224, 224);
+}
+
+
+
+
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    background-color: antiquewhite;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 27%;
+    height: 45%;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+.overlay-icons{
+    font-size: 55px;
+}
+
+.overlay-icon{
+    margin: 15px;
+    color: black;
+}
+
+
+
+
+
+
+}
+
+/* ------------------------------------------max width: 375px------------------------------------------ */
+
+@media screen and (max-width:375px) {
+    .projects-container{
+    
+        width: 100vw;
+        height: 220vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         
+        
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    /* -------------------------------------Section Title------------------------------------------ */
+    .section-title{
+       
+        height: 50px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        color: rgb(240, 224, 224);
+    }
+    
+    
+    
+    .Projects{
+        font-size: 25px;
+    }
+    
+    .contactMe2{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+        font-size: 15px;
+        
+    }
+    
+    /* --------------------------------------Projects Grid------------------------------------------ */
+    
+    .p-grid-container{
+        
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        
+        
+    }
+    
+    .p-grid-row{
+        
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        
+        
+        
+    }
+    
+    .p-div{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+            
+        height: 400px;
+    }
+    
+    .p-div:not(:last-child){
+        margin-bottom: 25px;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    
+    .project-Description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .project-Description h4{
+        color: rgb(240, 224, 224);
+    }
+    
+    .project-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+        
+    }
+    
+    .project-option div a p{
+        text-decoration: underline  rgb(100, 216, 236) 3px;
+        color: rgb(240, 224, 224);
+    }
+    
+    
+    
+    
+    
+    .overlay{
+        transition: all 0.2s ease;
+        opacity: 0;
+        background-color: antiquewhite;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        width: 27%;
+        height: 45%;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    
+    .overlay-icons{
+        font-size: 55px;
+    }
+    
+    .overlay-icon{
+        margin: 15px;
+        color: black;
+    }
+}

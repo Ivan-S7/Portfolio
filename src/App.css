@@ -1,0 +1,20 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background: linear-gradient(220.55deg, #5D85A6 0%, #0E2C5E 100%); */
+  /* background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%); */
+  /* background: linear-gradient(220.55deg, #A531DC 0%, #4300B1 100%); */
+  /* background: linear-gradient(220.55deg, #565656 0%, #181818 100%); */
+  background: linear-gradient(220.55deg, #4643DF 0%, #0B0A47 100%);
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Russo One', sans-serif;
+}
+
+.app-container{
+  width: 100%;
+  /* background-color: gold; */
+}

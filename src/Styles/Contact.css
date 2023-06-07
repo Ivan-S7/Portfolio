@@ -1,0 +1,985 @@
+.Contact-section-container{
+  
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  
+  background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+}
+
+.contact-grid{
+  /* background-color: aqua; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding-top: 75px;
+}
+
+.contact-grid-row{
+  /* background-color: cadetblue; */
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+
+
+/* -------------------------------------Grid Left Side (contact-info)------------------------------------- */
+
+.contact-info{
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.contact-title h2{
+  
+  font-size: 70px;
+  color: rgb(240, 224, 224);
+  margin-bottom: 50px;
+}
+
+.contact-description{
+  font-size: 18px;
+  color: rgb(240, 224, 224);
+}
+
+/* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+
+.contact-form{
+  
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  
+}
+
+.form-container{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
+}
+
+.form-col{
+  
+ 
+ display: flex;
+ flex-direction: column;
+  margin-bottom: 10px ;  
+}
+
+.form-label{
+  
+  margin: 0;
+  color: rgb(240, 224, 224);
+}
+
+.textArea-container textarea{
+  height: 120px;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+.button-container button{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: transparent;
+  color: rgb(240, 224, 224);
+  text-decoration: underline  rgb(100, 216, 236) 3px ;
+  
+}
+
+.form-control{
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px rgb(240, 224, 224);
+  border-radius: 0;
+}
+
+.hrContact{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hr{
+  color: rgb(240, 224, 224);
+  
+  width: 80%;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------Responsive------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------Max Width: 992px------------------------------------------------- */
+
+@media screen and (max-width:992px) {
+  .Contact-section-container{
+  
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+  }
+  
+  .contact-grid{
+    /* background-color: aqua; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding-top: 0;
+  }
+  
+  .contact-grid-row{
+    /* background-color: cadetblue; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+  }
+  
+  
+  /* -------------------------------------Grid Left Side (contact-info)------------------------------------- */
+  
+  .contact-info{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+  
+  .contact-title h2{
+    
+    font-size: 70px;
+    color: rgb(240, 224, 224);
+    margin-bottom: 50px;
+  }
+  
+  .contact-description{
+    font-size: 18px;
+    color: rgb(240, 224, 224);
+  }
+  
+  /* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+  
+  .contact-form{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    
+  }
+  
+  .form-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .form-col{
+    
+   
+   display: flex;
+   flex-direction: column;
+    margin-bottom: 10px ;  
+  }
+  
+  .form-label{
+    
+    margin: 0;
+    color: rgb(240, 224, 224);
+  }
+  
+  .textArea-container textarea{
+    height: 120px;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .button-container button{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(240, 224, 224);
+    text-decoration: underline  rgb(100, 216, 236) 3px ;
+    
+  }
+  
+  .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px rgb(240, 224, 224);
+    border-radius: 0;
+  }
+  
+  .hrContact{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1%;
+    margin-bottom: 0;
+  }
+  
+  .contact-hr{
+    color: rgb(240, 224, 224);
+    
+    width: 80%;
+  }
+}
+
+
+
+/* --------------------------------------Max Width Screen: 767px------------------------------------------- */
+@media screen and (max-width:768px) {
+   .Contact-section-container{
+  
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+  }
+  
+  .contact-grid{
+    /* background-color: aqua; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+  }
+  
+  .contact-grid-row{
+    /* background-color: cadetblue; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+  }
+  
+  
+  /* -------------------------------------Grid Left Side (contact-info)------------------------------------- */
+  
+  .contact-info{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+  
+  .contact-title h2{
+    
+    font-size: 70px;
+    color: rgb(240, 224, 224);
+    margin-bottom: 50px;
+  }
+  
+  .contact-description{
+    font-size: 18px;
+    color: rgb(240, 224, 224);
+  }
+  
+  /* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+  
+  .contact-form{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    
+  }
+  
+  .form-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .form-col{
+    
+   
+   display: flex;
+   flex-direction: column;
+    margin-bottom: 10px ;  
+  }
+  
+  .form-label{
+    
+    margin: 0;
+    color: rgb(240, 224, 224);
+  }
+  
+  .textArea-container textarea{
+    height: 120px;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .button-container button{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(240, 224, 224);
+    text-decoration: underline  rgb(100, 216, 236) 3px ;
+    
+  }
+  
+  .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px rgb(240, 224, 224);
+    border-radius: 0;
+  }
+  
+  .hrContact{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1%;
+    margin-bottom: 0;
+  }
+  
+  .contact-hr{
+    color: rgb(240, 224, 224);
+    
+    width: 80%;
+  }
+}
+
+
+/* ---------------------------------------Max Width: 576px------------------------------------------------ */
+
+@media screen and (max-width: 576px) {
+  .Contact-section-container{
+
+    padding-top: 0;
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%); */
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+  }
+  
+  .contact-grid{
+    
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+  }
+  
+  .contact-grid-row{
+    /* background-color: cadetblue; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  
+  /* -------------------------------------Grid Up Side (contact-info)------------------------------------- */
+  
+  .contact-info{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+    justify-content: center;
+  }
+  
+
+  .contact-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-title h2{
+    
+    font-size: 70px;
+    color: rgb(240, 224, 224);
+    margin-bottom: 50px;
+  }
+  
+  .contact-description{
+    font-size: 18px;
+    color: rgb(240, 224, 224);
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin: auto;
+    
+    
+  }
+  
+  /* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+  
+  .contact-form{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    
+  }
+  
+  .form-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .form-col{
+    
+   
+   display: flex;
+   flex-direction: column;
+    margin-bottom: 10px ;  
+  }
+  
+  .form-label{
+    
+    margin: 0;
+    color: rgb(240, 224, 224);
+  }
+  
+  .textArea-container textarea{
+    height: 120px;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .button-container button{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(240, 224, 224);
+    text-decoration: underline  rgb(100, 216, 236) 3px ;
+    
+  }
+  
+  .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px rgb(240, 224, 224);
+    border-radius: 0;
+  }
+  
+  .hrContact{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2%;
+  }
+  
+  .contact-hr{
+    color: rgb(240, 224, 224);
+    
+    width: 80%;
+  }
+}
+
+/* ----------------------------------------Max Width: 480px -----------------------------------------------*/
+
+@media screen and (max-width:480px) {
+  .Contact-section-container{
+  
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%); */
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+  }
+  
+  .contact-grid{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .contact-grid-row{
+    /* background-color: cadetblue; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+  }
+  
+  
+  /* -------------------------------------Grid Up Side (contact-info)------------------------------------- */
+  
+  .contact-info{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  
+
+  .contact-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-title h2{
+    
+    font-size: 70px;
+    color: rgb(240, 224, 224);
+    margin-bottom: 50px;
+  }
+  
+  .contact-description{
+    font-size: 18px;
+    color: rgb(240, 224, 224);
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin: auto;
+    
+    
+  }
+  
+  /* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+  
+  .contact-form{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    
+  }
+  
+  .form-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .form-col{
+    
+   
+   display: flex;
+   flex-direction: column;
+    margin-bottom: 10px ;  
+  }
+  
+  .form-label{
+    
+    margin: 0;
+    color: rgb(240, 224, 224);
+  }
+  
+  .textArea-container textarea{
+    height: 120px;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .button-container button{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(240, 224, 224);
+    text-decoration: underline  rgb(100, 216, 236) 3px ;
+    
+  }
+  
+  .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px rgb(240, 224, 224);
+    border-radius: 0;
+  }
+  
+  .hrContact{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-hr{
+    color: rgb(240, 224, 224);
+    
+    width: 80%;
+  }
+}
+
+/* -------------------------------------Max Width: 400px-------------------------------------------------- */
+@media screen and (max-width:400px) {
+  .Contact-section-container{
+  
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%); */
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+  }
+  
+  .contact-grid{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .contact-grid-row{
+    /* background-color: cadetblue; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+  }
+  
+  
+  /* -------------------------------------Grid Up Side (contact-info)------------------------------------- */
+  
+  .contact-info{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  
+
+  .contact-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-title h2{
+    
+    font-size: 70px;
+    color: rgb(240, 224, 224);
+    margin-bottom: 50px;
+  }
+  
+  .contact-description{
+    font-size: 18px;
+    color: rgb(240, 224, 224);
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin: auto;
+    
+    
+  }
+  
+  /* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+  
+  .contact-form{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    
+  }
+  
+  .form-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .form-col{
+    
+   
+   display: flex;
+   flex-direction: column;
+    margin-bottom: 10px ;  
+  }
+  
+  .form-label{
+    
+    margin: 0;
+    color: rgb(240, 224, 224);
+  }
+  
+  .textArea-container textarea{
+    height: 120px;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .button-container button{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(240, 224, 224);
+    text-decoration: underline  rgb(100, 216, 236) 3px ;
+    
+  }
+  
+  .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px rgb(240, 224, 224);
+    border-radius: 0;
+  }
+  
+  .hrContact{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-hr{
+    color: rgb(240, 224, 224);
+    
+    width: 80%;
+  }
+  
+}
+
+
+/* -------------------------------------Max Width Screen: 375px------------------------------------- */
+@media screen and (max-width:375px) {
+  .Contact-section-container{
+  
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%); */
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+  }
+  
+  .contact-grid{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .contact-grid-row{
+    /* background-color: cadetblue; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+  }
+  
+  
+  /* -------------------------------------Grid Up Side (contact-info)------------------------------------- */
+  
+  .contact-info{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  
+
+  .contact-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-title h2{
+    
+    font-size: 70px;
+    color: rgb(240, 224, 224);
+    margin-bottom: 50px;
+  }
+  
+  .contact-description{
+    font-size: 18px;
+    color: rgb(240, 224, 224);
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin: auto;
+    
+    
+  }
+  
+  /* ----------------------------------------Grid Right Side (Form)----------------------------------------- */
+  
+  .contact-form{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    
+  }
+  
+  .form-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .form-col{
+    
+   
+   display: flex;
+   flex-direction: column;
+    margin-bottom: 10px ;  
+  }
+  
+  .form-label{
+    
+    margin: 0;
+    color: rgb(240, 224, 224);
+  }
+  
+  .textArea-container textarea{
+    height: 120px;
+  }
+  
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  
+  .button-container button{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(240, 224, 224);
+    text-decoration: underline  rgb(100, 216, 236) 3px ;
+    
+  }
+  
+  .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px rgb(240, 224, 224);
+    border-radius: 0;
+  }
+  
+  .hrContact{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-hr{
+    color: rgb(240, 224, 224);
+    
+    width: 80%;
+  }
+}

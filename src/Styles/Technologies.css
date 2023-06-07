@@ -1,0 +1,1296 @@
+/* -----------------------------------------General Style---------------------------------------------- */
+
+.technologies-container{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 0;
+    margin: 0;
+}
+
+.t-inside{
+    /* background-color: brown; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.t-div{
+    
+    height: 100%;
+}
+
+.t-name{
+    color: rgb(240, 224, 224);
+    font-size: 20px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+    border: none;
+}
+
+.tlogo-div{
+    background-color: unset;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -----------------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+
+.first-t-row{
+    /* background-color: blue; */
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.logo{
+    width: 120px;
+}
+
+
+
+
+/* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+
+.secondt-row{
+    /* background-color: blue; */
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.bootstrap-div{
+    
+    padding-left: 15%;
+}
+
+.react-div{
+    
+    padding-right: 15%;
+}
+
+.fa-brands{
+    font-size: 120px;
+}
+
+.fa-react{
+    color: #61DBFB;
+}
+
+.fa-bootstrap{
+    color: #991d74;
+}
+
+/* ---------------------------------------------------------hr------------------------------------------ */
+.t-hr{
+    color: white;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------Responsive------------------------------------------------------- */
+
+/* --------------------------------------Max Screen Width: 1024px------------------------------------------ */
+
+@media screen and (max-width:1024px) {
+    .technologies-container{
+        /* background-color: aqua; */
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        padding-top: 0;
+        margin: 0;
+    }
+    
+    .t-inside{
+        /* background-color: brown; */
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    .t-div{
+        
+        height: 100%;
+    }
+    
+    .t-name{
+        color: rgb(240, 224, 224);
+        font-size: 20px;
+    }
+    
+    .card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: unset;
+        border: none;
+    }
+    
+    .tlogo-div{
+        background-color: unset;
+        width: 100%;
+        height: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* -----------------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+    
+    .first-t-row{
+        /* background-color: blue; */
+        width: 100%;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    .logo{
+        width: 120px;
+    }
+    
+    
+    
+    
+    /* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+    
+    .secondt-row{
+        /* background-color: blue; */
+        width: 100%;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    .bootstrap-div{
+        
+        padding-left: 15%;
+    }
+    
+    .react-div{
+        
+        padding-right: 15%;
+    }
+    
+    .fa-brands{
+        font-size: 120px;
+    }
+    
+    .fa-react{
+        color: #61DBFB;
+    }
+    
+    .fa-bootstrap{
+        color: #991d74;
+    }
+    
+    /* ---------------------------------------------------------hr------------------------------------------ */
+    .t-hr{
+        color: white;
+        width: 80%;
+    }
+}
+
+/* --------------------------------------Max Screen Width: 991px------------------------------------------- */
+
+@media screen and (max-width:991px) {
+    
+    .technologies-container{
+        
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        margin: 0;
+        
+       
+    }
+    
+    .t-inside{
+       
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo{
+        width: 120px;
+    }
+
+    .html-logo, .css-logo{
+        width: 150px;
+    }
+
+    .fa-brands{
+        font-size: 120px;
+    }
+
+    .t-name{
+        font-size: 30px;
+    }
+
+}
+
+
+
+/* -------------------------------------Max Screen Width: 767px--------------------------------------------- */
+
+@media screen and (max-width:767px) {
+    .technologies-container{
+        
+        width: 100vw;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        margin: 0;
+        
+       
+    }
+    
+    .t-inside{
+       
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+  
+    
+    .t-div{
+        
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        
+    }
+
+    
+    .t-name{
+        color: rgb(240, 224, 224);
+        font-size: 20px;
+    }
+
+     
+    .card{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        border: none;
+    }
+    
+    .tlogo-div{
+        background-color: unset;
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        width: 100px;
+    }
+    
+    /* -----------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+    
+    .first-t-row{
+        /* background-color: blue; */
+        width: 80%;
+        min-height: 60%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+       
+        
+        margin-bottom: 0;
+        
+    }
+
+    .HTML-div{
+        order: 1;
+    }
+
+    .html-logo, .css-logo{
+        width: 120px;
+    }
+
+    .CSS-div{
+        order: 2;
+    }
+
+    .JS-div{
+        order: 3;
+    }
+    
+    
+    
+    
+    
+    
+    /* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+    
+    .secondt-row{
+        
+        
+        width: 80vw;
+        min-height: 40%;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        
+        
+    }
+
+    .react-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17%;
+        
+    }
+    
+    .bootstrap-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14%;
+        
+    }
+
+
+    
+    .fa-brands{
+        font-size: 120px;
+        
+        
+    }
+    
+    .fa-react{
+        color: #61DBFB;
+        order: 2;
+    }
+
+   
+
+    .fa-bootstrap{
+        color: #991d74;
+        order: 1;
+    }
+    
+    /* ---------------------------------------------------------hr------------------------------------------ */
+    .t-hr{
+        color: white;
+        width: 80%;
+    }
+}
+
+
+/* -------------------------------------Max Screen Width: 576px-------------------------------------------- */
+
+@media screen and (max-width:576px) {
+    .technologies-container{
+        
+        width: 100vw;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        margin: 0;
+       
+    }
+    
+    .t-inside{
+       
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    
+    .t-div{
+        
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        
+    }
+
+    
+    .t-name{
+        color: rgb(240, 224, 224);
+        font-size: 20px;
+    }
+
+    
+    
+    .card{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        border: none;
+    }
+    
+    .tlogo-div{
+        background-color: unset;
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        width: 100px;
+    }
+    
+    /* -----------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+    
+    .first-t-row{
+        /* background-color: blue; */
+        width: 80%;
+        min-height: 60%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+       
+        
+        
+        margin-top: 100px;
+        
+    }
+
+    .HTML-div{
+        order: 1;
+    }
+
+    .html-logo, .css-logo{
+        width: 120px;
+    }
+
+    .CSS-div{
+        order: 2;
+    }
+
+    .JS-div{
+        order: 3;
+    }
+    
+    
+    
+    
+    
+    
+    /* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+    
+    .secondt-row{
+        
+        
+        width: 80vw;
+        min-height: 40%;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        
+        
+        
+    }
+
+    .react-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17%;
+        
+    }
+    
+    .bootstrap-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14%;
+        
+    }
+
+
+    
+    .fa-brands{
+        font-size: 120px;
+        
+        
+    }
+    
+    .fa-react{
+        color: #61DBFB;
+        order: 2;
+    }
+
+   
+
+    .fa-bootstrap{
+        color: #991d74;
+        order: 1;
+    }
+    
+    /* ---------------------------------------------------------hr------------------------------------------ */
+    .t-hr{
+        color: white;
+        width: 80%;
+    }
+}
+
+
+/* ----------------------------------------Max Screen Width: 480px----------------------------------------- */
+
+@media screen and (max-width:480px) {
+    .technologies-container{
+        
+        width: 100vw;
+        height: 120vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        
+        padding: 0;
+        margin: 0;
+        
+       
+        
+       
+    }
+
+    
+    
+    .t-inside{
+       
+        height: 100%;
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+  
+
+    .first-t-row{
+        width: 80%;
+        order: 1;
+        
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0;
+        
+        
+    }
+
+    .secondt-row{
+        
+        width: 80vw;
+        order: 2;
+        height: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+
+     
+    
+    .t-div{
+        
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        
+        
+    }
+
+    
+    .t-name{
+        color: rgb(240, 224, 224);
+        font-size: 20px;
+    }
+
+     
+    .card{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        border: none;
+    }
+    
+    .tlogo-div{
+        background-color: unset;
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        width: 100px;
+    }
+    
+    /* -----------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+    
+    
+
+    .HTML-div{
+        order: 1;
+    }
+
+    .html-logo, .css-logo{
+        width: 120px;
+    }
+
+    .CSS-div{
+        order: 2;
+    }
+
+    .JS-div{
+        order: 3;
+    }
+    
+    
+    
+    
+    
+    
+    /* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+    
+    
+
+    .react-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17%;
+        
+    }
+    
+    .bootstrap-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14%;
+        
+    }
+
+    
+
+
+   
+
+   
+    
+    
+    
+    .fa-brands{
+        font-size: 120px;
+        
+        
+    }
+    
+    .fa-react{
+        color: #61DBFB;
+        order: 2;
+    }
+
+   
+
+    .fa-bootstrap{
+        color: #991d74;
+        order: 1;
+    }
+    
+    /* ---------------------------------------------------------hr------------------------------------------ */
+    .t-hr{
+        color: white;
+        width: 80%;
+    }
+}
+
+
+
+/* ----------------------------------------Max Screen Width: 400px-------------------------------------------*/
+@media screen and (max-width:400px) {
+    .technologies-container{
+        
+        width: 100vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        
+        padding-top: 0;
+        margin: 0;
+        margin-top: 0;
+        
+       
+    }
+    
+    .t-inside{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    
+    .t-div{
+        
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        
+    }
+
+    
+    .t-name{
+        color: rgb(240, 224, 224);
+        font-size: 20px;
+    }
+
+ 
+    
+    .card{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        border: none;
+    }
+    
+    .tlogo-div{
+        background-color: unset;
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    
+    /* -----------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+    
+    .first-t-row{
+        /* background-color: blue; */
+        width: 80%;
+        height: 60%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        
+       
+        
+        
+        
+    }
+
+    .HTML-div{
+        order: 1;
+    }
+
+    .CSS-div{
+        order: 2;
+    }
+
+    .JS-div{
+        order: 3;
+    }
+    
+    
+    
+    
+    
+    
+    /* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+    
+    .secondt-row{
+        
+        
+        width: 80vw;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        
+        
+    }
+
+    .react-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17%;
+        
+    }
+    
+    .bootstrap-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14%;
+        
+    }
+
+    /* #segundo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+
+   
+
+   
+    
+    
+    
+    .fa-brands{
+        font-size: 120px;
+        
+        
+    }
+    
+    .fa-react{
+        color: #61DBFB;
+        order: 2;
+    }
+
+   
+
+    .fa-bootstrap{
+        color: #991d74;
+        order: 1;
+    }
+    
+    /* ---------------------------------------------------------hr------------------------------------------ */
+    .t-hr{
+        color: white;
+        width: 80%;
+    }
+}
+
+/* --------------------------------------max width: 375px-------------------------------------------------- */
+
+@media screen and (max-width:375px) {
+    .technologies-container{
+        
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        
+        padding-top: 0;
+        margin: 0;
+        margin-top: 0;
+        
+       
+    }
+    
+    .t-inside{
+       
+        height: 120vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+        
+    }
+
+    
+    .t-div{
+        
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        
+    }
+
+    
+    .t-name{
+        color: rgb(240, 224, 224);
+        font-size: 20px;
+    }
+
+ 
+    
+    .card{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        border: none;
+    }
+    
+    .tlogo-div{
+        background-color: unset;
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .html-logo, .css-logo{
+        width: 120px;
+    }
+    
+    
+    /* -----------------------------first grid row  (HTML, CSS, JS)---------------------------------------- */
+    
+    .first-t-row{
+        /* background-color: blue; */
+        width: 80%;
+        height: 60%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+       
+        
+        
+        
+    }
+
+    .HTML-div{
+        order: 1;
+    }
+
+    .CSS-div{
+        order: 2;
+    }
+
+    .JS-div{
+        order: 3;
+    }
+    
+    
+    
+    
+    
+    
+    /* -----------------------------Second Grid Row (React, Bootstrap)------------------------------------ */
+    
+    .secondt-row{
+        
+        
+        width: 80vw;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        
+        
+    }
+
+    .react-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17%;
+        
+    }
+    
+    .bootstrap-div{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14%;
+        
+    }
+
+    /* #segundo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+
+   
+
+   
+    
+    
+    
+    .fa-brands{
+        font-size: 120px;
+        
+        
+    }
+    
+    .fa-react{
+        color: #61DBFB;
+        order: 2;
+    }
+
+   
+
+    .fa-bootstrap{
+        color: #991d74;
+        order: 1;
+    }
+    
+    /* ---------------------------------------------------------hr------------------------------------------ */
+    .t-hr{
+        color: white;
+        width: 80%;
+    }
+}
