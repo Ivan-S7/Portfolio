@@ -18,7 +18,7 @@ function Navbar(){
 
 								<a className="icon-link" href="https://github.com/Ivan-S7" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
 								
-								<a href="#" className="icon-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-person"></i></a>
+								<a href="https://drive.google.com/file/d/19rAwnu6egUJHyTze5F4xOAf-nTX3mSDy/view?usp=sharing" className="icon-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-person"></i></a>
 							</div>
 						</div>
     				
